@@ -1,0 +1,40 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from "../components/Footer.astro";
+import Navbar from "../components/NavBar.astro";
+import IconBar from '../components/IconBar.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+
+export interface Props {
+  title?: string;
+  desc?: string;
+  ogimage?: string;
+}
+const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <IconBar current={""}/>
+    <div class="cv-container">
+      <Navbar />
+      <div class="glass-box">
+        <slot />
+      </div>
+      <Footer />
+    </div>
+    
+    <style is:global>
+      img {
+        content-visibility: auto; /* hidden */
+      }
+    </style>
+  </body>
+  
+</html>

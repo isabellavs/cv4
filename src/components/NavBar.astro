@@ -1,0 +1,62 @@
+---
+const { current = '' } = Astro.props;
+---
+
+<nav class="nav-container">
+  <ul class="nav-main">
+    <li><a href="/">.isabella-van-staden</a></li>
+    <li class="push">
+      <a href="/About">.about</a>
+    </li>
+    <li><a href="/Resume">.resume</a></li>
+    <li><a href="/Toybox">.toybox</a></li>
+    <li><a href="/Contact">.contact</a></li>
+  </ul>       
+</nav>
+
+<style>
+  
+  .nav-container {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    border-radius: 1px;
+    transition: all 0.3s linear;
+    margin: 0;
+    z-index: 9999;
+    opacity: 1;
+  }
+
+  .nav-main {
+    display: flex;
+    list-style: none;
+    margin: 0 40px 0 0;
+  }
+
+  .push {                 
+    margin-left: auto;      
+  } 
+
+  .nav-main li {
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  .nav-main a {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    color: var(--main-text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .nav-main li:hover a {
+    background-color: var(--main-highlight);
+    padding: 5px;
+    border-radius: var(--main-border-radius);
+  }
+
+</style>
