@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://isabellavs.github.io/cv4',
+	base: '/cv4',
 	integrations: [mdx(), sitemap()],
 });
