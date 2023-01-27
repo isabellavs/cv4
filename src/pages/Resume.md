@@ -67,7 +67,7 @@
 #####  
 ## Projects: 
 
-[![GitHub](/cv4/public/github-icon-png-29.jpg")](https://github.com/isabellavs)
+[![GitHub](../../public/github-icon-png-29.jpg")](https://github.com/isabellavs)
 
 ## Education & Qualifications
 
