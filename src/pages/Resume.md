@@ -10,7 +10,7 @@
     mark {background-color:lightblue;color:black;border-radius:7%}
 </style>
 
-# **Senior Programmer** <img style="float:right;border-radius:50%;border:1px solid white;width:40px;filter:grayscale(90%)" src="(https://isabellavs.github.io/cv4/public/hat.jpg" />
+# **Senior Programmer** <img style="float:right;border-radius:50%;border:1px solid white;width:40px;filter:grayscale(90%)" src=(https://isabellavs.github.io/cv4/public/hat.jpg) />
 
 ## Summary
 
