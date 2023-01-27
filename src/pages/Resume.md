@@ -10,7 +10,7 @@
     mark {background-color:lightblue;color:black;border-radius:7%}
 </style>
 
-# **Senior Programmer** <img style="float:right;border-radius:50%;border:1px solid white;width:40px;filter:grayscale(90%)" src="/cv4/public/hat.jpg" />
+# **Senior Programmer** [//]: # (<img style="float:right;border-radius:50%;border:1px solid white;width:40px;filter:grayscale(90%)" src="/cv4/public/hat.jpg" />)
 
 ## Summary
 
@@ -67,7 +67,8 @@
 #####  
 ## Projects: 
 
-[<img src="../../public/github-icon-png-29.jpg" style="width:40px;padding:10px"/>](https://github.com/isabellavs)
+[//]: ([<img src="../../public/github-icon-png-29.jpg" style="width:40px;padding:10px"/>](https://github.com/isabellavs))
+[Find me on GitHub](https://github.com/isabellavs)
 
 ## Education & Qualifications
 
