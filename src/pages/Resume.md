@@ -1,5 +1,5 @@
 <style>
-    body {background-color:#242426;color:#d9d9d9;line-height:2;margin:auto;padding:3px;max-width:1024px;font-family:consolas,arial;display:block;font-size:100%}
+    body {background-color:#242426;color:#d9d9d9;line-height:2;margin:auto;padding:3px;max-width:1024px;display:block;font-size:100%}
     h1 {font-size=200%;padding:15px;top:7px;background:#6b6b71;}
     h2 {font-size=160%;border-top:1px solid grey;padding:2px}
     h3 {font-size=120%;padding:2px}
@@ -10,7 +10,7 @@
     mark {background-color:lightblue;color:black;border-radius:7%}
 </style>
 
-# **Senior Programmer** [//]: # (<img style="float:right;border-radius:50%;border:1px solid white;width:40px;filter:grayscale(90%)" src="/cv4/public/hat.jpg" />)
+# **Senior Programmer**
 
 ## Summary
 
@@ -67,7 +67,6 @@
 #####  
 ## Projects: 
 
-[//]: ([<img src="../../public/github-icon-png-29.jpg" style="width:40px;padding:10px"/>](https://github.com/isabellavs))
 [Find me on GitHub](https://github.com/isabellavs)
 
 ## Education & Qualifications
