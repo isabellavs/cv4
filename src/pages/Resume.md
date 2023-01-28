@@ -68,7 +68,9 @@
 ## Projects: 
 
 [GitHub](https://github.com/isabellavs)
-![](../../public/hat.jpg)
+######
+
+![github](../../public/hat.jpg)
 
 ## Education & Qualifications
 
