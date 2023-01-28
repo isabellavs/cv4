@@ -67,8 +67,6 @@
 #####  
 ## Projects: 
 
-[![github](../../public/github-icon-png-29.jpg)](https://github.com/isabellavs)
-![git](<img src="../../public/github-icon-png-29.jpg" alt="drawing" width="200"/>)
 [:octocat:](https://github.com/isabellavs)
 
 ## Education & Qualifications
