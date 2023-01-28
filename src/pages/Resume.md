@@ -70,7 +70,7 @@
 [GitHub](https://github.com/isabellavs)
 ######
 
-![github](../../public/hat.jpg)
+[![github](../../public/hat.jpg)](https://github.com/isabellavs)
 
 ## Education & Qualifications
 
