@@ -7,7 +7,53 @@ const { current = '' } = Astro.props;
 <Layout title="About">
   <about>
     <div>
-      <h1>This chapter will</h1> <h1>be available soon...</h1>
+      <h1>About</h1>
+      <br/>
+      <div class="split-screen">
+        <div class="left-half">
+          <p class="about-p">
+            I have been programming for a long time and usually I like to be involved in all parts of a system.<br>
+            My preference leans towards backend programming, you know, the this-is-where-we-hide-the-real-code-and-db area.<br><br>
+            You wouldn't be able to tell by looking at this website, but I do have some frontend skills too.
+            Prettifying though, is not one of my strong suites but I am working on it.<br><br>
+            I have an innate curiosity and tenacity which enable me to assimilate and apply new information and skills in a relatively short time.<br><br>
+            I advocate a pro-active approach and seek to implement effective interventions before problems arise.<br><br>
+            If I could choose the perfect team to work with, it would be as part of a start-up contributing towards the climate's wellbeing.
+            If world peace is a consequence of such work, it would be a welcome bonus.
+          </p>
+      </div>
+      <div class="right-half">
+        <img src="../../public/hat.jpg" class="profile-pic" alt="">
+      </div>
+    </div>
     </div>
   </about>
 </Layout>
+
+<style>
+  .split-screen {
+    display: flex;
+    flex-direction: row 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-p {
+    justify-items: left;
+    width: 90%;
+    position: relative;
+    top: 5%;
+    text-align: left;
+    font-size: medium;
+    letter-spacing: .1em;
+  }
+  .about-p h1 {
+	text-align: left;
+}
+.about-p p {
+	text-align: left;
+}
+.right-half > div {
+  background-color: blue;
+  flex: 1;
+}
+</style>

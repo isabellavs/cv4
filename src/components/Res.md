@@ -1,3 +1,11 @@
+---
+layout: "../../layouts/Layout.astro"
+title: "Resume"
+description: "CV of IvS"
+pubDate: "Jan 30th 2023"
+heroImage: ""
+---
+
 <style>
     body {background-color:#242426;color:#d9d9d9;line-height:2;margin:auto;padding:3px;max-width:1024px;display:block;font-size:100%}
     h1 {font-size=200%;padding:15px;top:7px;background:#6b6b71;}

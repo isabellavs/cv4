@@ -10,23 +10,24 @@ export interface Props {
   desc?: string;
   ogimage?: string;
 }
+
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light-theme">
 
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION}/>
   </head>
 
-  <body>
-    <IconBar current={""}/>
+  <body >
+    <!--<IconBar current={""}/>-->
     <div class="cv-container">
       <Navbar />
-      <div class="glass-box">
+      <!--<div class="glass-box">-->
         <slot />
-      </div>
+      <!--</div>-->
       <Footer />
     </div>
     
@@ -35,6 +36,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
         content-visibility: auto; /* hidden */
       }
     </style>
+  
   </body>
   
 </html>

@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 
 const { current = '' } = Astro.props;
 ---
@@ -7,7 +8,75 @@ const { current = '' } = Astro.props;
 <Layout title="ToyBox">
   <toybox>
     <div>
-      <h1>This section will</h1> <h1>be available soon...</h1>
+      <h1>Tinkering...</h1>
+      <br>
+      <ul role="list" class="card-grid">
+        <Card
+          href="https://docs.astro.build/"
+          title="Flask"
+          body="Flask web server"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="Scraper"
+          body="Web scraper"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="Nav Bar"
+          body="Icon Nav Bar"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="Shop"
+          body="Brochure"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="Game"
+          body="Tic-Tac-Toe"
+        />
+        <Card
+          href="https://codepen.io/isabellavs/pen/GRWGVjZ"
+          title="Animation"
+          body="Pure CSS"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="noEskom"
+          body="Loadshedding check"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="Password Checker"
+          body="Has it been hacked?"
+        />
+        <Card
+          href="https://docs.astro.build/"
+          title="Weather"
+          body="Get it"
+        />
+      </ul>
     </div>
   </toybox>
 </Layout>
+
+<style>
+
+  .card-grid {
+    display: grid; 
+    grid-template-rows: repeat(auto-fit, minmax(auto, auto));
+    grid-template-columns: repeat(3, minmax(auto, auto));
+    gap: 1rem; 
+    padding: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-rows: repeat(auto-fit, minmax(2em, 2em));
+        grid-template-columns: repeat(1, minmax(2em, 2em));
+        overflow: hidden;
+    }
+}
+
+</style>

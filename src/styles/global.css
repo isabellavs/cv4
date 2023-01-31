@@ -32,6 +32,19 @@ body {
 	height: 100%;
 }
 
+.light-theme {
+	--main-glass-color: white;
+	--main-text-color: rgb(0, 0, 0);
+	--main-highlight: white;
+	--fill-one-color: rgb(166, 166, 167);
+	--fill-two-color: rgb(76, 76, 77);
+	--fill-three-color: white;
+	--path-stroke-color: rgb(76, 76, 77);
+	--main-border-radius: 15px;
+	--profile-pic-filter: grayscale(1) contrast(1.5);
+	--profile-pic-opacity: 1;
+}
+
 .dark-theme {
 	--path-fill-color: rgb(76, 76, 77);
 	--main-text-color: rgb(149, 201, 209);
