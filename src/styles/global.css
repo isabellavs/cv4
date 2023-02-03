@@ -2,7 +2,6 @@
 
 :root {
 	--main-glass-color: white;
-	/*--path-current-color: currentColor;*/
 	--main-text-color: rgb(0, 0, 0);
 	--main-highlight: white;
 	--fill-one-color: rgb(166, 166, 167);
@@ -15,21 +14,13 @@
 	/*--box-shadows: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
 }
 
-html {
-	background-color: var(--main-glass-color);
-	transition: background-color 1s;
-}
-
-body {
+html, body {
+	height: 100%;
 	font-family: Helvetica, sans-serif;
-	width: 100%;
-	color: var(--main-text-color);
 	text-align: center;
 	letter-spacing: .5em;
-	top: 15%;
-	margin: 5%;
-	display:contents;
-	height: 100%;
+	color: var(--main-text-color);
+	background-color: var(--main-glass-color);
 }
 
 .light-theme {
@@ -60,6 +51,24 @@ body {
 	--box-shadows: unset;
 }
 
+@media only screen and (max-width: 768px) {
+	/* display only dark-theme on small screens */
+	.light-theme {
+		--path-fill-color: rgb(76, 76, 77);
+		--main-text-color: rgb(149, 201, 209);
+		--main-highlight: rgb(136, 132, 132);
+		--fill-one-color: rgb(82, 134, 143);
+		--fill-two-color: rgb(186, 186, 192);
+		--fill-three-color: rgb(51, 51, 51);
+		--path-stroke-color: rgb(149, 201, 209);
+		--main-glass-color: rgb(51, 51, 51);
+		--main-border-radius: 15px;
+		--profile-pic-filter: unset;
+		--profile-pic-opacity: .8;
+		--box-shadows: unset;
+	}
+}
+
 .profile-pic {
 	max-height: 200px;
 	max-width: 200px;
@@ -78,7 +87,7 @@ svg path, svg g {
 	justify-content: center;
 	justify-items: center;
 	align-content: center;
-	padding: 5%
+	padding: 5%;
 }
 
 .cv-container h1 {
@@ -140,30 +149,6 @@ svg path, svg g {
 	opacity: 1;
 }
 
-@media only screen and (max-width: 768px) {
-	.nav-main {
-		font-size: 0.5em;
-		padding: 0;
-		font-weight: bold;
-		max-width: 768px;
-		opacity: 0;
-	}
-	.nav-main a {
-		font-weight: bold;
-	}
-	.glassbox {
-		padding: 0;
-		font-size: 0.5em;
-		min-width: 95%;
-		margin-left: 2%;
-		margin-right: -10%;
-		top: 0;
-	}
-	.glassbox p {
-		padding: 1em;
-	}
-}
-
 .work-container {
 	font-size: 16px;
 	font-style: normal;
@@ -187,7 +172,7 @@ svg path, svg g {
 }
 
 .work-cell {
- 	width: 220px;
+	width: 220px;
 }
 
 form input, form textarea {
@@ -199,7 +184,7 @@ form input, form textarea {
 }
 
 form input::placeholder, form textarea::placeholder {
- color: var(--main-text-color);
+	color: var(--main-text-color);
 }
 
 form button {

@@ -51,9 +51,17 @@ const { current = '' } = Astro.props;
 }
 .about-p p {
 	text-align: left;
+  align-items: flex-start;
 }
 .right-half > div {
-  background-color: blue;
+  /*background-color: blue;*/
   flex: 1;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+    .right-half {
+      display: none;
+    }
 }
 </style>

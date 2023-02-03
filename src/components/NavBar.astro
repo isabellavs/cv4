@@ -4,13 +4,13 @@ const { current = '' } = Astro.props;
 
 <nav class="nav-container">
   <ul class="nav-main">
-    <li><a href="/cv4/">.isabella-van-staden</a></li>
-    <li class="push">
+    <li class="big-nav"><a href="/cv4/">.isabella-van-staden</a></li>
+    <li class="push big-nav">
       <a href="/cv4/About">.about</a>
     </li>
-    <li><a href="/cv4/Resume">.resume</a></li>
-    <li><a href="/cv4/ToyBox">.toybox</a></li>
-    <li><a href="/cv4/Contact">.contact</a></li>
+    <li class="big-nav"><a href="/cv4/Resume">.resume</a></li>
+    <li class="big-nav"><a href="/cv4/ToyBox">.toybox</a></li>
+    <li class="big-nav"><a href="/cv4/Contact">.contact</a></li>
     <li>
       <a class="theme-button" title="change theme">
         <svg class="theme-icon"
@@ -22,14 +22,120 @@ const { current = '' } = Astro.props;
         </svg>
       </a>
   </li>  
+  </ul>
+  <ul class="small-nav nav-main">
+    <a href="/cv4/" title="home">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 20 20">
+          <path d="M18.672 11H17v6c0 .445-.194 1-1 1h-4v-6H8v6H4c-.806 0-1-.555-1-1v-6H1.328c-.598 0-.47-.324-.06-.748L9.292 2.22c.195-.202.451-.302.708-.312c.257.01.513.109.708.312l8.023 8.031c.411.425.539.749-.059.749z"/>
+          <rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" /></svg>
+    </a>
+    <a href="/cv4/About" class="about" title="about">
+      <svg class="about" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 20 20">
+          <g fill="none">
+              <path d="M9 2a4 4 0 1 0 0 8a4 4 0 0 0 0-8zm-4.991 9A2.001 2.001 0 0 0 2 13c0 1.691.833 2.966 2.135 3.797C5.417 17.614 7.145 18 9 18c.41 0 .816-.019 1.21-.057A5.477 5.477 0 0 1 9 14.5c0-1.33.472-2.55 1.257-3.5H4.01zm9.866 1.5a.625.625 0 1 1 1.25 0a.625.625 0 0 1-1.25 0zm1.125 4a.5.5 0 0 1-1 0v-2a.5.5 0 0 1 1 0v2zm-5-2a4.5 4.5 0 1 1 9 0a4.5 4.5 0 0 1-9 0zm1 0a3.5 3.5 0 1 0 7 0a3.5 3.5 0 0 0-7 0z"/>
+          </g>
+          <rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" />
+      </svg>
+    </a>
+    <a href="/cv4/Resume" title="resume">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 20 20">
+          <g fill="none">
+              <path d="M7.085 3H5.5A1.5 1.5 0 0 0 4 4.5v12A1.5 1.5 0 0 0 5.5 18h9a1.5 1.5 0 0 0 1.5-1.5v-12A1.5 1.5 0 0 0 14.5 3h-1.585A1.5 1.5 0 0 0 11.5 2h-3a1.5 1.5 0 0 0-1.415 1zM8.5 3h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zM9 8.5a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H9.5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H9.5a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H9.5a.5.5 0 0 1-.5-.5zm-1-6a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0zm0 3a.75.75 0 1 1-1.5 0a.75.75 0 0 1 1.5 0zm-.75 3.75a.75.75 0 1 1 0-1.5a.75.75 0 0 1 0 1.5z"/>
+          </g>
+          <rect x="0" y="0" width="20" height="20" fill="rgba(0, 0, 0, 0)" />
+      </svg>
+    </a>
+    <a href="/cv4/ToyBox" title="toybox">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 24 24">
+          <path d="M19 6V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v1h-2V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v1H3v14h18V6z"/>
+          <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+      </svg>
+    </a>
+    <a href="/cv4/Contact" title="contact">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 24 24"><path d="M11 14H9a9 9 0 0 1 9-9v2c-3.87 0-7 3.13-7 7zm7-3V9c-2.76 0-5 2.24-5 5h2c0-1.66 1.34-3 3-3zM7 4c0-1.11-.89-2-2-2s-2 .89-2 2s.89 2 2 2s2-.89 2-2zm4.45.5h-2A2.99 2.99 0 0 1 6.5 7h-3C2.67 7 2 7.67 2 8.5V11h6V8.74a4.97 4.97 0 0 0 3.45-4.24zM19 17c1.11 0 2-.89 2-2s-.89-2-2-2s-2 .89-2 2s.89 2 2 2zm1.5 1h-3a2.99 2.99 0 0 1-2.95-2.5h-2A4.97 4.97 0 0 0 16 19.74V22h6v-2.5c0-.83-.67-1.5-1.5-1.5z"/>
+          <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+      </svg>
+    </a>
+    <a href="https://github.com/isabellavs/" class="github" title="github">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 24 24">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z"/>
+          <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/isabella-van-staden-40ba7695?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BynbJKQOVSZa%2FTTjZYrFCgw%3D%3D" class="linked" title="linkedin">
+      <svg 
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+          width="1em" height="1em" 
+          style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+          preserveAspectRatio="xMidYMid meet" 
+          viewBox="0 0 24 24">
+          <g>
+              <path d="M15.15 8.4a5.83 5.83 0 0 0-5.85 5.82v5.88a.9.9 0 0 0 .9.9h2.1a.9.9 0 0 0 .9-.9v-5.88a1.94 1.94 0 0 1 2.15-1.93a2 2 0 0 1 1.75 2v5.81a.9.9 0 0 0 .9.9h2.1a.9.9 0 0 0 .9-.9v-5.88a5.83 5.83 0 0 0-5.85-5.82z"/>
+              <rect x="3" y="9.3" width="4.5" height="11.7" rx=".9" ry=".9"/>
+              <circle cx="5.25" cy="5.25" r="2.25"/>
+          </g>
+          <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)"/>
+      </svg>
+    </a>
+    <a href="https://codepen.io/isabellavs" class="codepen" title="codepen">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" 
+        width="1em" height="1em" 
+        style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+        preserveAspectRatio="xMidYMid meet" 
+        viewBox="0 0 24 24">
+        <path d="M12 10.202L9.303 12L12 13.798L14.697 12L12 10.202zm4.5.596L19.197 9L13 4.869v3.596l3.5 2.333zm3.5.07L18.303 12L20 13.131V10.87zm-3.5 2.334L13 15.535v3.596L19.197 15L16.5 13.202zM11 8.465V4.869L4.803 9L7.5 10.798L11 8.465zM4.803 15L11 19.131v-3.596l-3.5-2.333L4.803 15zm.894-3L4 10.869v2.262L5.697 12zM2 9a1 1 0 0 1 .445-.832l9-6a1 1 0 0 1 1.11 0l9 6A1 1 0 0 1 22 9v6a1 1 0 0 1-.445.832l-9 6a1 1 0 0 1-1.11 0l-9-6A1 1 0 0 1 2 15V9z" <!--fill="#626262"-->/>
+        <rect x="0" y="0" width="24" height="24" fill="rgba(0, 0, 0, 0)" />
+      </svg>
+    </a>
+    <a class="theme-button" title="change theme">
+      <svg class="theme-icon"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="24" height="24" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+        <g fill="none">
+          <path class="theme-path" d="M12.5 2v3.252a.75.75 0 0 0 1.5 0V2h1v4.251a.75.75 0 0 0 1.5 0V2h1.75a.75.75 0 0 1 .75.75V11H5V2.75A.75.75 0 0 1 5.75 2h6.75z"/>
+          <path class="theme-path" d="M5 12.5v1.752a2.25 2.25 0 0 0 2.25 2.25H10V20a2 2 0 1 0 4 0v-3.498h2.75a2.25 2.25 0 0 0 2.25-2.25V12.5H5z"/>
+        </g>
+      </svg>
+    </a>  
   </ul>       
 </nav>
-
 <script>
+  
   document.querySelector('.theme-button').addEventListener('click', () => {
-      const html = document.querySelector("html");
-      html.classList.toggle('dark-theme');
-  })
+
+  const elmt = document.querySelector("html");
+  const currentTheme = window.localStorage.getItem('theme');
+  elmt.style.transitionDuration='1s';
+
+  (currentTheme == 'light')
+      ? elmt.classList.replace('light-theme', 'dark-theme') && window.localStorage.setItem('theme', 'dark')
+      : elmt.classList.replace('dark-theme', 'light-theme') && window.localStorage.setItem('theme', 'light');
+    console.log(elmt)
+    console.log(window.localStorage)
+})
 </script>
 
 <style>
@@ -75,4 +181,37 @@ const { current = '' } = Astro.props;
     padding: 5px;
     border-radius: var(--main-border-radius);
   }
+
+  .small-nav {
+    display: none;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .nav-main {
+      /*font-size: 0.5em;*/
+      padding: 0;
+      font-weight: normal;
+      max-width: 768px;
+      text-align: center;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-evenly;
+      margin: 0;
+      top: 0;
+    }
+    a {
+      text-decoration: none;
+      padding: 5px;
+    }
+    .theme-button {
+      display: none;
+    }
+    .big-nav {
+      display: none;
+    }
+    .small-nav {
+      display: block;
+    }
+  }
+
 </style>
