@@ -23,7 +23,8 @@ const { current = '' } = Astro.props;
           </p>
       </div>
       <div class="right-half">
-        <img src="../../public/hat.jpg" class="profile-pic" alt="">
+        <img src="../../public/1c.jpg" class="profile-pic" alt="">
+        <img src="../../public/2.jpg" class="profile-pic2" alt="">
       </div>
     </div>
     </div>
@@ -54,14 +55,13 @@ const { current = '' } = Astro.props;
   align-items: flex-start;
 }
 .right-half > div {
-  /*background-color: blue;*/
   flex: 1;
   align-items: flex-end;
 }
 
 @media only screen and (max-width: 768px) {
-    .right-half {
-      display: none;
-    }
+  .right-half {
+    display: none;
+  }
 }
 </style>

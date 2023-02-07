@@ -34,6 +34,8 @@ html, body {
 	--main-border-radius: 15px;
 	--profile-pic-filter: grayscale(1) contrast(1.5);
 	--profile-pic-opacity: 1;
+	--profile-pic-display: none;
+	--profile-pic-display2: block;
 }
 
 .dark-theme {
@@ -49,6 +51,8 @@ html, body {
 	--profile-pic-filter: unset;
 	--profile-pic-opacity: .8;
 	--box-shadows: unset;
+	--profile-pic-display: block;
+	--profile-pic-display2: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,10 +74,18 @@ html, body {
 }
 
 .profile-pic {
-	max-height: 200px;
-	max-width: 200px;
-	border-radius: 50%;
+	max-height: 300px;
+	max-width: 300px;
+	/*border-radius: 50%;*/
 	filter: var(--profile-pic-filter);
+	display: var(--profile-pic-display);
+}
+
+.profile-pic2 {
+	max-height: 300px;
+	max-width: 300px;
+	filter: var(--profile-pic-filter);
+	display: var(--profile-pic-display2);
 }
 
 svg path, svg g {
