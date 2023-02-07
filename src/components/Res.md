@@ -1,3 +1,11 @@
+---
+layout: "../../layouts/Layout.astro"
+title: "Resume"
+description: "CV of IvS"
+pubDate: "Jan 30th 2023"
+heroImage: ""
+---
+
 <style>
     body {background-color:#242426;color:#d9d9d9;line-height:2;margin:auto;padding:3px;max-width:1024px;display:block;font-size:100%}
     h1 {font-size=200%;padding:15px;top:7px;background:#6b6b71;}
@@ -7,22 +15,22 @@
     h6 {border-bottom:1px solid grey;padding:2px;width:30%;padding-top:15px}
     h5 {padding:2px;width:30%;padding-top:15px}
     a {color: #eee}
-    mark {background-color:lightblue;color:black;border-radius:7%}
+    mark {background-color:lightblue;color:black;border-radius:7%;padding:2px}
 </style>
 
 # **Senior Programmer**
 
 ## Summary
 
-   * C/C++ **Python** JavaScript **Bash** Perl **HTML** CSS **PHP** Java
-   * ReactJS  **Flask** Django **Astro** Laravel
-   * PostgreSQL **DynamoDB** PouchDB **MongoDB** Informix **Oracle** Ingres
-   * Linux **Windows**
-   * AWS **MongoDB Cloud** Google Cloud
-   * Git **Github** Bitbucket **SourceTree**
-   * Docker **Miniconda**
-   * VSCode **SourceTree** cmdl **vim** Open Source
-   * Jira **Agile**
+   * **<mark>C/C++</mark> &nbsp; <mark>Python</mark> &nbsp; <mark>JavaScript</mark> &nbsp; <mark>Bash</mark> &nbsp; <mark>Perl</mark> &nbsp; <mark>HTML</mark> &nbsp; <mark>CSS</mark> &nbsp; <mark>PHP</mark> &nbsp; <mark>Java</mark>**
+   * **<mark>ReactJS</mark> &nbsp; <mark>Flask</mark> &nbsp; <mark>Django</mark> &nbsp; <mark>Astro</mark> &nbsp; <mark>Laravel**
+   * **<mark>PostgreSQL</mark> &nbsp; <mark>DynamoDB</mark> &nbsp; <mark>PouchDB</mark> &nbsp; <mark>MongoDB</mark> &nbsp; <mark>Informix</mark> &nbsp; <mark>Oracle</mark> &nbsp; <mark>Ingres</mark>**
+   * **<mark>Linux</mark> &nbsp; <mark>Windows</mark>**
+   * **<mark>AWS</mark> &nbsp; <mark>MongoDB Cloud</mark> &nbsp; <mark>Google Cloud</mark>**
+   * **<mark>Git</mark> &nbsp; <mark>Github</mark> &nbsp; <mark>Bitbucket</mark> &nbsp; <mark>SourceTree</mark>**
+   * **<mark>Docker</mark> &nbsp; <mark>Miniconda</mark>**
+   * **<mark>VSCode</mark> &nbsp; <mark>SourceTree</mark> &nbsp; <mark>cmdl</mark> &nbsp; <mark>vim</mark> &nbsp; <mark>Open Source</mark>**
+   * **<mark>Jira</mark> &nbsp; <mark>Agile</mark>**
 
 ## Working Experience
 ######
@@ -71,7 +79,7 @@
 
 ## Education & Qualifications
 
-* **Bachelor of Medical Science** (University of the Free State, Jan 1991 – Jan 1995)
+* **B.Med.Sc** (University of the Free State, Jan 1991 – Jan 1995)
 * **NMP5: New Managers Program** (Wits Business School, Jan 2018 – Jan 2021)
 * **Practical Project Management** (Unisa Graduate School of Business Leadership, Feb 2002 – Nov 2002)
 #

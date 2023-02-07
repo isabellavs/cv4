@@ -5,9 +5,39 @@ const { current = '' } = Astro.props;
 ---
 
 <Layout title="Resume">
-  <resume>
+  <resume class="resume-wrapper">
     <div>
-      <h1>This section will</h1> <h1>be available soon...</h1>
+      <h1>Resume</h1><br>
+      <div >
+        <h4>Currently Using</h4>
+          <p class="resume">
+            Python &bull; JavaScript &bull; CSS &bull; HTML &bull; ReactJS &bull; Linux &bull; Docker &bull; MiniConda &bull; AWS &bull; PostgreSQL &bull; Django &bull; Atlassian &bull; Windows &bull; SourceTree &bull; VSCode
+          </p>
+        <h4>Previously Used</h4>
+          <p class="resume">
+            C/C++ &bull; Perl &bull; Informix
+          </p>
+        <h4>Three Months or Less</h4>
+          <p class="resume">
+            MongoDB &bull; DynamoDB &bull; Laravel &bull; PHP &bull; Flask
+          </p>
+        <h4>Long time ago</h4>
+          <p class="resume">
+            Java &bull; Unix &bull; Oracle &bull; IBM Websphere &bull; IBM MQ &bull; PL/SQL
+          </p>
+      </div>
     </div>
   </resume>
 </Layout>
+
+<style>
+.resume-wrapper {
+  width: 90%;
+  letter-spacing: .1em;
+}
+.resume {
+    font-size: small;
+    letter-spacing: .1em;
+    opacity: 0.7;
+  }
+</style>
