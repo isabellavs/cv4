@@ -1,17 +1,4 @@
-<style>
-    body {background-color:#242426;color:#d9d9d9;line-height:2;margin:auto;padding:3px;max-width:1024px;display:block;font-size:100%;font:monospace}
-    h1 {font-size:200%;padding:15px;top:7px;background:#6b6b71;border:3px solid}
-    h2 {font-size:160%;border-top:1px solid grey;padding:2px}
-    h3 {font-size:120%;padding:2px}
-    h4 {font-size:100%;padding:2px}
-    h6 {border-bottom:1px solid grey;padding:2px;width:30%;padding-top:15px}
-    h5 {padding:2px;width:30%;padding-top:15px}
-    a {color: #eee}
-    mark {background-color:lightblue;color:black;border-radius:7%;padding:2px}
-    img {height:40px;padding-top:20px;}
-</style>
-
-# 1. **Senior Programmer**
+# **Senior Programmer**
 
 #####
 
@@ -26,7 +13,6 @@
    * **<mark>Jira</mark> &nbsp; <mark>Agile</mark>**
 
 
-* [![Resume](./public/resume.png)](https://isabellavs.github.io/cv4/)
+#####
 
-
-#
+Peruse my portfolio on github-pages.
